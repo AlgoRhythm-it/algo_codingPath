@@ -67,13 +67,26 @@ body {
     margin-right: 10px; /* Add margin for spacing from the edge */
 }
 
+.club-header {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust spacing between the club name and other elements */
+}
+
 .club-name {
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
-    flex-grow: 1; /* Push the logos to the sides */
     color: #333; /* Adjust text color */
+    margin: 0; /* Remove default margin for better alignment */
 }
+
+.club-presents {
+    font-size: 14px; /* Slightly larger font size for better visibility */
+    /*font-weight: bold;*/
+    color: #666; /* Slightly lighter text color for contrast */
+    margin: 0; /* Remove default margin */
+    margin-top: 10px; /* Add spacing from the club name */
+}
+
 /* Keyframes for fade-in effect */
 @keyframes fadeIn {
     from {
