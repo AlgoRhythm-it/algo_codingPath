@@ -39,4 +39,68 @@ body {
     min-width: 150px;
     align-self: center;
   }
-  
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding for spacing */
+    background-color: #f8f9fa; /* Optional: Light background */
+    border-bottom: 2px solid #ddd; /* Optional: Subtle border */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.college-logo {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 10px; /* Add margin for spacing from the edge */
+}
+
+.club-logo {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Add margin for spacing from the edge */
+}
+
+.club-name {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1; /* Push the logos to the sides */
+    color: #333; /* Adjust text color */
+}
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Basic styling for logos */
+.college-logo, .club-logo {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    opacity: 0; /* Start as invisible */
+    animation: fadeIn 2s ease-in forwards; /* Apply fade-in effect on load */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for scaling and opacity */
+}
+
+/* Hover effect for both logos */
+.college-logo:hover, .club-logo:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+/* Optional: Hover effect for smooth transition */
+.college-logo:hover, .club-logo:hover {
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
