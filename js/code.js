@@ -21,23 +21,23 @@ const weekProblems = {
     ],
   
     'Week 3': [
-    { category: 'STRINGS', problem: 'REVERSE THE STRING', level: 'HARD', week: 'Week 3', link: 'https://dummy-link.com' },
-    { category: 'STRINGS', problem: 'LONGEST COMMON PREFIX', level: 'HARD', week: 'Week 3', link: 'https://dummy-link.com' },
-    { category: 'STRINGS', problem: 'DIVISIBLE BY 7', level: 'HARD', week: 'Week 3', link: 'https://dummy-link.com' },
-    { category: 'STRINGS', problem: 'GROUP ANAGRAMS', level: 'HARD', week: 'Week 3', link: 'https://dummy-link.com' },
-    { category: 'STRINGS', problem: 'IMPLEMENT ATOI', level: 'HARD', week: 'Week 3', link: 'https://dummy-link.com' },
-    { category: 'STRINGS', problem: 'MULTIPLY 2 STRINGS', level: 'HARD', week: 'Week 3', link: 'https://dummy-link.com' },
-    { category: 'STRINGS', problem: 'LAST MATCH', level: 'HARD', week: 'Week 3', link: 'https://dummy-link.com' },
+    { category: 'STRINGS', problem: 'REVERSE THE STRING', level: 'EASY', week: 'Week 3', link: 'https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1' },
+    { category: 'STRINGS', problem: 'LONGEST COMMON PREFIX ', level: 'EASY', week: 'Week 3', link: 'https://www.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1' },
+    { category: 'STRINGS', problem: 'DIVISIBLE BY 7', level: 'EASY', week: 'Week 3', link: 'https://www.geeksforgeeks.org/problems/divisible-by-73224/1' },
+    { category: 'STRINGS', problem: 'GROUP ANAGRAMS', level: 'MEDIUM', week: 'Week 3', link: 'https://leetcode.com/problems/group-anagrams/description/?envType=problem-list-v2&envId=string' },
+    { category: 'STRINGS', problem: 'IMPLEMENT ATOI', level: 'MEDIUM', week: 'Week 3', link: 'https://www.geeksforgeeks.org/problems/implement-atoi/1' },
+    { category: 'STRINGS', problem: 'MULTIPLY 2 STRINGS', level: 'MEDIUM', week: 'Week 3', link: 'https://www.geeksforgeeks.org/problems/multiply-two-strings/1' },
+    { category: 'STRINGS', problem: 'LAST MATCH', level: 'EASY', week: 'Week 3', link: 'https://www.geeksforgeeks.org/problems/last-match1928/1' },
   ],
   
     'Week 4': [
-  { category: 'ARRAYS AND STRINGS', problem: 'ARRAY DUPLICATES', level: 'HARD', week: 'Week 4', link: 'https://dummy-link.com' },
-  { category: 'ARRAYS AND STRINGS', problem: 'MAJORITY ELEMENT', level: 'HARD', week: 'Week 4', link: 'https://dummy-link.com' },
-  { category: 'ARRAYS AND STRINGS', problem: 'ISOMORPHIC STRINGS', level: 'HARD', week: 'Week 4', link: 'https://dummy-link.com' },
-  { category: 'ARRAYS AND STRINGS', problem: 'PANAGRAM CHECKING', level: 'HARD', week: 'Week 4', link: 'https://dummy-link.com' },
-  { category: 'ARRAYS AND STRINGS', problem: 'LICENSE KEY FORMATTING', level: 'HARD', week: 'Week 4', link: 'https://dummy-link.com' },
-  { category: 'ARRAYS AND STRINGS', problem: 'SMALLEST WINDOW', level: 'HARD', week: 'Week 4', link: 'https://dummy-link.com' },
-  { category: 'ARRAYS AND STRINGS', problem: 'EDIT DISTANCE', level: 'HARD', week: 'Week 4', link: 'https://dummy-link.com' },
+  { category: 'ARRAYS AND STRINGS', problem: 'ARRAY DUPLICATES', level: 'BASIC', week: 'Week 4', link: 'https://www.geeksforgeeks.org/problems/find-duplicates-in-an-array/1' },
+  { category: 'ARRAYS AND STRINGS', problem: 'MAJORITY ELEMENT', level: 'MEDIUM', week: 'Week 4', link: 'https://www.geeksforgeeks.org/problems/majority-element-1587115620/1' },
+  { category: 'ARRAYS AND STRINGS', problem: 'ISOMORPHIC STRINGS', level: 'BASIC', week: 'Week 4', link: 'https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1' },
+  { category: 'ARRAYS AND STRINGS', problem: 'PANAGRAM CHECKING', level: 'BASIC', week: 'Week 4', link: 'https://www.geeksforgeeks.org/problems/pangram-checking-1587115620/1' },
+  { category: 'ARRAYS AND STRINGS', problem: 'LICENSE KEY FORMATTING', level: 'HARD', week: 'Week 4', link: 'https://www.geeksforgeeks.org/problems/license-key-formatting/1' },
+  { category: 'ARRAYS AND STRINGS', problem: 'SMALLEST WINDOW', level: 'HARD', week: 'Week 4', link: 'https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1' },
+  { category: 'ARRAYS AND STRINGS', problem: 'EDIT DISTANCE', level: 'HARD', week: 'Week 4', link: 'https://www.geeksforgeeks.org/problems/edit-distance3702/1' },
 ]
 
   
@@ -98,10 +98,10 @@ const weekProblems = {
   
   function openGoogleForm(weekIndex) {
     const formLinks = [
-      'https://forms.gle/form1', // Replace with actual form links
-      'https://forms.gle/form2',
-      'https://forms.gle/form3',
-      'https://forms.gle/form4',
+      'https://forms.gle/GqZ7JHrBiRtXB7JZ6', // Replace with actual form links
+      'https://forms.gle/rZ1XtxjAstBnsLgp6',
+      'https://forms.gle/T59cRDGZorGJVaaDA',
+      'https://forms.gle/GSrPs3vuCEYh3tzu9',
     ];
     window.open(formLinks[weekIndex], '_blank');
   }
